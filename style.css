@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
+}
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
 }
 
 .topBelt{
@@ -75,4 +81,84 @@
 .navButton:hover {
     background-color: #9A54BC;
     color: white;
+}
+
+.headCirclesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.headCirclesHeader {
+    color: #2B0236;
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: 50px;
+}
+
+.topHeadButton {
+    padding: 10px 20px;
+    background-color: #9A54BC;
+    color: white;
+    border: 2px solid #9A54BC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.topHeadButton:hover {
+    background-color: white;
+    color: #9A54BC;
+}
+
+.relative {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.smallCircle {
+    top: 20px;
+}
+
+.rectangle {
+    top: 30px;
+}
+
+.collabWord {
+    top: 130px;
+}
+
+.circlesButton {
+    bottom: 60px;
+    padding: 5px 10px;
+    border: solid 2px #60267F;
+    background-color: white;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.fiveIconsContainer {
+    width: 100%;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.fiveIconsImgContainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
