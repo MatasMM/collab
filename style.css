@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
+
 }
 
 h2 {
@@ -296,7 +296,7 @@ iframe {
 }
 
 .collabAppsCardsContainer {
-    background-color: #1f0d270b; 
+    background-color: #1f0d270b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -334,9 +334,11 @@ iframe {
 
 .collabCardsContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 50%;
     margin-top: 50px;
+    gap: 10px;
+    flex-direction: row;
 }
 
 .card {
@@ -352,6 +354,46 @@ iframe {
 
 .collabCardsList::before {
     content: "\F231";
-    font-family: bootstrap;
+    font-family: bootstrap-icons;
 }
 
+.collabCardsCBtn {
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+    font-size: 10.56px;
+    font-weight: 700;
+    line-height: 12.38px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card1 {
+    background-color: #56E6A5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+.car {
+    width: 150px;
+    height: 27px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.tiy {
+    width: 53px;
+    height: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.contact {
+    
+}
