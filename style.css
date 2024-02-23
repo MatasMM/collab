@@ -655,7 +655,35 @@ iframe {
     height: 289.21px;
 }
 
+.gg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
+.ppp {
+    margin-left: -300px;
+    width: 90px;
+    height: 30px;
+}
+
+.text9 {
+    margin-left: -300px;
+    margin-top: 7px;
+    height: 70px;
+    width: 223.62px;
+}
+.text10 {
+    font-weight: 600;
+    width: 100px;
+    height: 20px;
+    margin-top: 60px;
+    margin-left: -300px;
+}
+
+.appImg {
+    width: 30px;
+}
 
 .ftr {
     width: 845.18px;
